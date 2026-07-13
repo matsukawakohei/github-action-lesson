@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/cehckout@v4
+      - uses: actions/checkout@v4
       - run: make action-lint
